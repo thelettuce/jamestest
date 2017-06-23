@@ -1,0 +1,25 @@
+{
+    "name": "konstructive/module-oneaddress",
+    "description": "Make only one address",
+    "require": {
+		"php": "~5.5.0|~5.6.0|~7.0.0"
+	},
+	"type": "magento2-module",
+	"version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "James Reed",
+            "email": "james@konstructive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Konstructive\\Oneaddress\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
